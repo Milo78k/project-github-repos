@@ -99,3 +99,7 @@ body {
 .remove-btn::after {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
+
+.autocomplete-button { width: 100%; text-align: left; font: inherit; color: inherit; background: transparent; border: 0; cursor: pointer; }
+.autocomplete-button:focus-visible { outline: 2px solid #333; }
+.search-status { font-size: 16px; }
